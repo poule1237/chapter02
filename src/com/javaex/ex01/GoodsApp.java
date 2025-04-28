@@ -33,6 +33,7 @@ public class GoodsApp {
 		System.out.println("----------------");
 		System.out.println(cup.name);
 		System.out.println(camera.price);
+		System.out.println(computer.price);
 	}
 	
 }
