@@ -6,11 +6,19 @@ public class GoodsApp {
 		
 		Goods camera = new Goods();
 		//이름 저장
+		//camera.name = "니콘"  //캡슐화;
 		camera.setName("니콘");
-		
+	
 		//이름 읽어오기
 		String name = camera.getName();
 		System.out.println(name);
+		
+		//가격 저장
+		camera.setPrice(400000);
+		
+		//가격 읽어오기
+		int price = camera.getPrice();
+		System.out.println(price);
 	}
 	
 	

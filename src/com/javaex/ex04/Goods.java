@@ -1,6 +1,5 @@
-package com.javaex.ex02;
+package com.javaex.ex04;
 
-//class(틀)
 public class Goods {
 
 	//필드
@@ -9,18 +8,18 @@ public class Goods {
 	
 	//생성자
 	
-	//메소드 
-	//name 값 입력
-	public void setName(String n){
+	//메소드
+	//name 등록
+	public void setName(String n) {
 		name = n;
 	}
 	
-	//name 값 읽어오기
-	public String getName(){
+	//name 읽어오기
+	public String getName() {
 		return name;
 	}
 	
-	//price 값 입력
+	//price 등록
 	public void setPrice(int p) {
 		price = p;
 	}
@@ -29,4 +28,9 @@ public class Goods {
 	public int getPrice() {
 		return price;
 	}
+	
+	
+	
+	
+	
 }
