@@ -41,4 +41,8 @@ public class Point {
 		System.out.println("점 x=" + x + ", y=" + y + " 을 그렸습니다.");
 		System.out.println("--------------------------");
 	}
+	public void drarw() {
+		System.out.println("점 x=" + x + ", y=" + y + " 을 지웠습니다.");
+		System.out.println("--------------------------");
+	}
 }

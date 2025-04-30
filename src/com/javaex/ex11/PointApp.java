@@ -13,6 +13,7 @@ public class PointApp {
 		Point p02 = new Point(10,20);
 		p02.draw();
 		
+		p01.drarw();
 	}
 
 }
