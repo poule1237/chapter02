@@ -2,8 +2,8 @@ package com.javaex.ex13;
 
 public class GoodsApp {
 
-	//static조사 ===>스택영역에 올려놓는다
-	
+	//static 조사 ===>스택영역에 올려놓는다
+	//스태틱 메모리에서 main()을 실행한다
 	public static void main(String[] args) {
 		
 		Goods camera = new Goods();
